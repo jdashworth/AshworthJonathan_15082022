@@ -1,0 +1,247 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+
+
+
+
+* {
+ box-sizing: border-box;
+  margin: 0px auto;
+  padding: 0px auto;
+  font-family: "Raleway", sans-serif;
+
+
+}
+body {
+  max-width: 365px;
+
+  border: 1px #A95DDB solid;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.imgsize {
+  max-width: 170px;
+  height: auto;
+  padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.imgsize2 {
+  max-width: 100px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/***********************************
+********     header*****************
+************************************/
+
+
+header {
+  background-color: #ffffff;
+}  
+   
+#searchdiv {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+    background-color: rgba(234, 234, 234, 1);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-basis: 100%;
+margin: 0px;
+    
+
+
+  } 
+
+
+  #searchdiv form input {
+    background-color: transparent;
+    border-style: none;
+    font-weight: bolder;
+
+  }
+  section#search-bar h1 {
+    margin: 0px;
+    font-size:25px;
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  }
+  section#search-bar p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+button.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+padding-bottom: 40px;
+padding-top: 40px;
+font-weight: bold;
+  color: #ffffff;
+  border-radius: 40px;
+  border-style: none;
+  background: linear-gradient(
+    120deg, #EE73DA 10%,
+     #A95DDB 90%
+  ) ;
+  box-shadow: 2px 2px 10px #727272;
+
+
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+button span{
+display: flex;
+flex-direction: column;
+  
+
+
+}
+section#search-bar {
+  background-color:#F6F6F6 ;
+}
+#search-bar h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#howto-restaurants {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 350px;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+article#howto ul {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+article#howto ul li {display: flex;
+
+
+}
+article#howto ul li div.how {
+  border: 1px #000000 solid;
+width: 225px;
+position: relative;
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 10px;
+font-size: smaller;
+font-weight: bold;
+
+
+}
+article#howto ul li div.how span.circle{
+  position: absolute;
+  left: -10px;
+  top:13px;
+  font-size: small;
+  font-weight: bold;
+}
+#howto h2 {
+  padding-top: 40px;
+}
+span.circle {
+  border: 2px transparent;
+ border-color: none transparent;
+ border-radius: 50%;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+ display:inline-block;
+
+ width: 20px;
+ line-height: 20px;
+ background-color: #9356DC ;
+ color: #ffffff;
+ text-align: center;
+}
+#restaurants  {
+  background-color:#F6F6F6 ;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+
+}
+#restaurants h2 {
+  padding-top: 40px;
+}
+
+#howto-restaurants h2 {
+  width: 350px;
+
+  justify-content: flex-start;
+}
+article#restaurants figure {
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 10px #727272;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+  position: relative;
+} 
+
+
+#restaurants img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  width: 335px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+} 
+p.new {
+  padding: 5px;
+  border: 1px transparent;
+  background-color:#99E2D0 ;
+  color:#028868 ;
+  width: fit-content;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+article#restaurants figure figcaption {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+} 
+footer {
+ 
+  display: flex;
+  flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+
+}
+footer ul li {
+  list-style: none;
+  
+} 
