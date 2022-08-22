@@ -1,5 +1,6 @@
-@media screen and (min-width :991px) {
+@media screen and (man-width :991px) {
     *{min-width:991px;
     display: block;
 }
+
 }
