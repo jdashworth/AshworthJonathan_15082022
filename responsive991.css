@@ -1,14 +1,5 @@
 
-@media screen and (min-width :991px) 
-    {
-    header,
-    article#restaurants,
-    footer > div {
-      max-width: 1160px;
-      margin: 0 auto;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+@media screen and (min-width :991px) {
     a {
       color: #000000;
     }
@@ -18,12 +9,15 @@
     .imgsize {
       margin: 0px;
     }
-    body, footer {
+    body {
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      display: flex;
+      flex-direction: column-reverse;
+} 
+footer {
      align-items: center;
-      max-width: 1100px;
-      margin: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
       display: block;
     }
      
@@ -53,37 +47,60 @@
     #reserve {
       display: flex;
       flex-direction: column;
-      justify-self: flex-end;
-      height: auto;
+      margin-left:auto;
+      margin-right:auto;
     }
-    #howto-restaurants {
+    section#howto-restaurants {
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       flex-wrap: wrap;
       margin-bottom: 40px;
+      margin-left:auto;
+      margin-right:auto;
     }
+
+    /*********************************
+************howto*****************
+*********************************/
+    article#howto {
+      justify-content: flex-end;
+      width: 100%;
+      margin-left:auto;
+      margin-right:auto;    }
     #howto ul{
       display: flex;
       flex-direction: row;
       margin :none;
     }
+    #howto ul li{
+      flex:1;}
+
+
   
-    #restaurants {
+    article#restaurants {
+      width: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      row-gap: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
       margin-bottom: 20px;
+      background-color: #ffffff;
     }
-    #restaurants h2 {
-      flex-basis: 100%;
+    article#restaurants h2 {
+      flex-basis:100%;
+      min-width: fit-content;
+      justify-self: center;
+      align-items: center;
+      
   
     }
     article#restaurants figure {
     height: fit-content;
-    justify-content: space-between;
-    flex-basis: 20%;
-    margin: 10px;
+    flex-shrink: 1;
+    }
+    footer {
+      width:100%;
     }
     footer ul {
       display: flex;
@@ -91,5 +108,5 @@
       justify-content: space-between;
       align-items: center;
     }
-
+  }
   

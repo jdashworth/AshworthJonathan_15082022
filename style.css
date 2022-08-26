@@ -333,7 +333,7 @@ footer{
 }
 footer > ul{
   padding:20px;
-  width: auto;
+  width: auto;        
   min-width: 375px;
  background-color: #353535;
  color: #ffffff;
