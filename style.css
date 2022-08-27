@@ -186,7 +186,6 @@ flex-basis: 100%;
 ul.how {
   display: flex;
   flex-direction: column;
-  justify-self: flex-start;
   margin:0px;
   padding:0px;
   list-style: none;
@@ -326,7 +325,6 @@ div.name {
   max-width: 200px;
   margin-left: 0px;
   padding-top: 5px;
-  padding-bottom: 5px;
 }
 div.name h3 {
   padding-left: 10px;
@@ -338,7 +336,29 @@ div.heart{display: flex;
   align-content: center;
   padding-bottom: 10px;
   margin-right:20px;
+  position: relative;
 }
+
+article#restaurants .fa-solid {
+  color: #fff;
+position:absolute;
+bottom:13px;
+left: 0px;
+}
+div.heart:hover .fa-solid {
+  color:#fff;
+  animation: fill-color;
+  animation-duration: 4s;
+}
+@keyframes fill-color {
+  0%    { color: #fff }
+  20%   { color: #E871DA}
+  80%   { color:  #CB68DB}
+  100%  { color: #AB5EDB }
+}
+
+
+
 article#restaurants i {
   margin: 0px;
   padding-top: 10px;
