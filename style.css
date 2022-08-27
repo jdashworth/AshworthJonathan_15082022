@@ -274,7 +274,7 @@ article#restaurants figure {
   align-items: center;
   height: 100%;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom:5px;
   box-shadow: 2px 2px 10px #727272;
   border-radius: 15px;
 
@@ -303,22 +303,48 @@ p.new {
   top: 10px;
   right: 10px;
 }
-article#restaurants figure figcaption#info {
- flex-basis: 50%;;
+figcaption.info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content: flex-start;
   flex-wrap: wrap;  
-  padding-left: 10px;
-  padding-right: 10px;
+  padding:5px;
   display: flex;
+  margin:0px;
+  width: 100%;
+  flex-basis: 70%;
+  text-align: left;
  
 } 
-article#restaurants figure figcaption#info h3{
-  flex-basis:100%;
 
-  margin: 0px;
-
+div.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 200px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+div.name h3 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+div.heart{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 10px;
+  margin-right:20px;
+}
+article#restaurants i {
+  margin: 0px;
+  padding-top: 10px;
+  justify-content: center;
+
+font-size: 25px;}
 
 
 /*********************************
