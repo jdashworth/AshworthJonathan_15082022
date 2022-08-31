@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100;
+    height: 500px;
+    margin: auto;
+
+    padding: auto;
+}
+div.logo {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+
+
+   
+    animation: fill-color 3s infinite;
+
+  }
+img.ohmy { 
+    position: absolute;
+    bottom: 40px;
+    border:3px #999999 transparent;
+    background: linear-gradient(
+        120deg, #EE73DA 10%,
+         #A95DDB 90%
+      ) ;
+    
+    padding: 30px;
+    border-radius: 40px;
+    
+  
+    animation: loading  3.5s  ;
+}
+  
+  @keyframes loading {
+    0% {        filter:opacity(0%);
+padding:0px;
+    }
+    100% {
+        filter:opacity(100%);
+        padding: 30px;
+
+    }
+
+  }
+  img.white{
+    position: relative;
+    left: 5px;
+    bottom:70px;
+    left: 30px;
+    filter: invert(1);
+      }
+
