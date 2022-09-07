@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 375px;
+    height: 500px;
+    margin:  auto;
+  flex-wrap: wrap;
+    padding: auto ;
+}
+ div.container {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+   
+    animation: fill-color 4s infinite;
+
+  }
+img.ohmy { 
+    position: absolute;
+    bottom: 40px;
+    border:3px #999999 transparent;
+    background: linear-gradient(
+        120deg, rgba(238, 115, 218, 1) 10%,
+        rgba(169, 93, 219, 1) 90%
+      ) ;
+    
+    padding: 30px;
+  
+  
+
+    border-radius: 50px;
+    
+  
+    animation: loading  2.5s  ;
+}
+  
+  @keyframes loading {
+    0% {        filter:opacity(0%);
+padding:0px;
+filter:brightness(0%);
+border-radius: 0px;
+    }
+    
+
+    
+    90% {
+      filter:opacity(100%);
+      padding: 30px;
+      filter:brightness(100%);
+      border-radius: 50px;
+  }
+    100% {
+        filter:opacity(100%);
+        padding: 30px;
+        filter:brightness(100%);
+    }
+
+  }
+   img.white{
+    position: relative;
+    left: 10px;
+    bottom:69px;
+    left: 29px;
+    filter: invert(1);
+      }
+

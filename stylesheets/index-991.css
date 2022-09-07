@@ -1,0 +1,253 @@
+@media screen and (min-width :991px) {
+    *{width:auto;
+    height:auto;
+
+    }
+      
+    a {
+        color: #000000;
+      }
+      
+        h2 {
+            display: none;
+        }
+      }
+      /***********************************
+      ********     header*****************
+      ************************************/
+      .imgsize {
+        width: 250px;
+        height: auto;
+        padding-top: 10px;
+          padding-bottom: 10px;    }
+      body {
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        flex-direction: column;
+  } 
+  main {
+    max-width:1300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  
+  
+  }
+  
+  
+       
+      
+      header {
+        width:auto;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+     div#searchbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      margin-right: 40px;
+      border-top:none;
+  
+  
+    }
+    div#searchbar p{
+      margin: 0px;
+  
+  
+  
+  
+    }
+      #search-reserve {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+  
+  
+      }
+      
+    
+      div#searchbar {
+        background-color: #ffffff;
+        width:100%;
+  
+  
+    
+      }
+      #searchbar{ 
+        flex-basis: 75%;
+        background-color: #ffffff;
+      }
+      div#reserve {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-left:auto;
+        margin-right:auto;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        background-image: url("/home/dashy/Documents/home/dashy/AshworthJonathan_15082022/images/restaurants/header-blur.jpg") ;
+        background-size:cover;
+        background-position: center;
+      
+      }
+      div#reserve h1 {
+      padding-top:0px;
+      font-family: "Shrikhand";
+        font-size: 40px;
+        color: #fff;
+      }
+      div#reserve p {
+        padding-top: 20px;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bolder;
+      }
+      #reserve a.explore div {
+        font-size: 18px;
+        margin-top:0px;
+  
+  
+      }
+  
+  
+      /*********************************
+  ************howto*****************
+  *********************************/
+  
+  
+  section#howto-restaurants {
+  
+  
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    gap:0px;
+  }
+  
+  
+  /*********************************
+  ************howto*****************
+  *********************************/
+  article#howto {
+    width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto; 
+    padding-top: 30px; 
+    align-items: center;
+  padding-bottom: 30px;
+    margin-bottom: 0px;
+  
+  
+  }
+
+  
+  
+  ul.how{
+    width: 90%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+   
+    display: flex;
+    justify-items: space-between;
+}
+
+  
+  
+  u.how li{ flex-basis: 33%;
+    flex-wrap: wrap;
+    justify-items: space-around;
+    width: max-content;
+    height: max-content;
+    justify-items: space-between;
+    align-items: center;
+    flex: 1;
+  }
+  
+  
+   
+  
+  
+  article#restaurants  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: #fff;
+  
+  
+  }
+  
+  
+  article#restaurants h2 {
+    text-align: center;
+    flex-basis: 100%;
+    align-items: center;
+    justify-items: center;
+    width: fit-content;
+    padding: 0px;
+    margin-left: 0px;
+  
+  
+  }
+    
+  
+  
+  
+  
+  article#restaurants figure {
+  height: fit-content;
+  flex-shrink: 1;
+  margin: 5px;
+  align-items: center;
+  
+  
+  
+  
+  }
+  span.outline {
+    color:#00000065;
+    position:absolute;
+    top: 3px;
+    left: 0px;
+    }
+  #restaurants img {
+    width: 264px;
+    height:140px;
+  
+  
+  }
+  footer {
+    width:100%;
+    justify-items: center;
+    align-items: center;
+    margin-top:0px;
+  }
+  footer ul {
+  
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
